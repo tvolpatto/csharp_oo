@@ -9,7 +9,8 @@ class Musica
 
     public bool Disponivel{get; set;}
 
-
+    public string Descricao =>  $"{Artista} - {Nome}";
+   
     public void ExibirInformacoes()
     {
         Console.WriteLine($"Nome: {Nome}");

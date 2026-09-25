@@ -5,3 +5,4 @@ musica1.Duracao = 240;
 musica1.Disponivel = true;
 
 musica1.ExibirInformacoes();    
+Console.WriteLine($"Descrição: {musica1.Descricao}");
