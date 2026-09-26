@@ -20,4 +20,9 @@ album1.Nome = "Divide";
 album1.Artista = "Ed Sheeran";
 album1.AdicionarMusica(musica1);
 album1.AdicionarMusica(musica2);
-album1.ExibirMusicasDoAlbum();        
+
+
+Banda banda1 = new();
+banda1.Nome = "Ed Sheeran";
+banda1.AdicionarAlbum(album1);
+banda1.ExibirDiscografia(); 

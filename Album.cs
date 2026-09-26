@@ -13,14 +13,14 @@ class Album
 
     public void ExibirMusicasDoAlbum()
     {
-        Console.WriteLine($"Álbum: {Nome}");
-        Console.WriteLine($"Artista: {Artista}");
-        Console.WriteLine($"Duração total: {DuracaoTotal} segundos");
+        Console.WriteLine($"Álbum: {Nome} ");
+        
+        Console.WriteLine($"Duração total: {DuracaoTotal} segundos\n");
         Console.WriteLine("Músicas do álbum:");
         foreach (var musica in musicas)
         {
             musica.ExibirInformacoes();
-            Console.WriteLine();
+            
         }
     }
 }

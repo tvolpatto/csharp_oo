@@ -16,7 +16,7 @@ class Musica
     public void ExibirInformacoes()
     {
         Console.WriteLine($"Nome: {Nome}");
-        Console.WriteLine($"Artista: {Artista}");
+        
         Console.WriteLine($"Duração: {Duracao} segundos");
         Console.WriteLine($"Gênero: {Genero.Nome}");
         if(Disponivel)
