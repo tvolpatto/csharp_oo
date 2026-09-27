@@ -3,7 +3,7 @@ class Musica
   
     public string Nome {get; set;}
     
-    public string Artista{get; set;}
+    public string Artista{get; }
 
     public int Duracao{get; set;}
 
@@ -12,6 +12,12 @@ class Musica
     public string Descricao =>  $"{Artista} - {Nome}";
 
     public Genero Genero { get; set; }  
+
+    public Musica(Banda artista)
+    {
+        Artista = artista.Nome;
+       
+    }
    
     public void ExibirInformacoes()
     {
