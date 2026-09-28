@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("C_Sharp_oo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a210ea4d30a7d8dfd8f46571a49400aa80491f8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f34ce1e058431ae7141e6d630f1f68b570c6cb33")]
 [assembly: System.Reflection.AssemblyProductAttribute("C_Sharp_oo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("C_Sharp_oo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
